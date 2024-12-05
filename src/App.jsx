@@ -43,7 +43,7 @@ export default function Login() {
   return (
     <div className="flex justify-center items-center h-screen bg-gray-100">
       <div className="bg-white p-8 rounded-lg shadow-lg w-80 ">
-        <h2 className="text-2xl font-semibold text-center mb-6">Login</h2>
+        <h2 className="text-2xl font-semiboldlogin text-center mb-6">Login</h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
             <Input
@@ -77,7 +77,7 @@ export default function Login() {
             variant="default"
             disabled={loading}
           >
-            {loading ? 'Loading...' : 'Login'}
+            {loading ? 'Loading...' : 'Entrar'}
           </Button>
         </form>
       </div>
